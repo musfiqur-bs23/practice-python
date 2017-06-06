@@ -1,7 +1,11 @@
-# Try Django 1.9
+# Create your first project
+`python manage.py startproject try-django-19`
 
-This readme looks this way because you are within a Lecture's commit. Go to the [home](https://github.com/codingforentrepreneurs/try-django-19) repo to see links for each lecture's code.
+#Run your web application
+`python manage.py runserver 8001`
 
-Thanks for watching!
+#Create superuser or admin panel
+`python manage.py createsuperuser`
 
-Team CFE
+#Create your first app on this project
+`python manage.py startapp <app-name>`
